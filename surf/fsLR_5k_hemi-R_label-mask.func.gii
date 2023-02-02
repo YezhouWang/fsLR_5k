@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[Invalid]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[/data/mica3/BIDS_MICs/conte69-10k/surface/conte69_64k/fs_LR-deformed_to-fsaverage.R.sphere.32k_fs_LR.surf.gii:
+wb_command -surface-sphere-project-unproject ../R.sphere.32k_fs_LR.surf.gii ../fs_R/fs_R-to-fs_LR_fsaverage.R_LR.spherical_std.164k_fs_R.surf.gii ../fs_R/fsaverage.R.sphere.164k_fs_R.surf.gii fs_LR-deformed-to-fsaverage.R.sphere.32k_fs_LR.surf.gii
+
+/data/mica3/BIDS_MICs/conte69-10k/surface/deformed_fsLR.R.sphere.5k.surf.gii:
+wb_command -surface-resample /data/mica3/BIDS_MICs/conte69-10k/surface/conte69_64k/fs_LR-deformed_to-fsaverage.R.sphere.32k_fs_LR.surf.gii /data/mica3/BIDS_MICs/conte69-10k/surface/conte69_64k/reference.R.sphere.32k_fs_LR.surf.gii /data/mica3/BIDS_MICs/conte69-10k/surface/5k.R.sphere.surf.gii BARYCENTRIC /data/mica3/BIDS_MICs/conte69-10k/surface/deformed_fsLR.R.sphere.5k.surf.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.5.0
+Qt Compiled Version: 5.9.5
+Qt Runtime Version: 5.9.5
+Commit: unknown
+Commit Date: unknown
+Compiled with OpenMP: YES
+Compiler: c++ (/usr/lib/ccache)
+Compiler Version: 7.3.0
+Compiled Debug: NO
+Operating System: Linux
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[wb_command -metric-resample /data/mica3/BIDS_MICs/conte69-10k/surface/conte69_64k/mask_conte69_32k_rh.func.gii /data/mica3/BIDS_MICs/conte69-10k/surface/conte69_64k/fs_LR-deformed_to-fsaverage.R.sphere.32k_fs_LR.surf.gii /data/mica3/BIDS_MICs/conte69-10k/surface/deformed_fsLR.R.sphere.5k.surf.gii BARYCENTRIC deformed_mask_5k_R.func.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/data/mica3/BIDS_MICs/conte69-10k/surface]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_NORMAL"
+           DataType="NIFTI_TYPE_FLOAT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="4842"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[PaletteColorMapping]]></Name>
+         <Value><![CDATA[<PaletteColorMapping Version="1">
+   <ScaleMode>MODE_AUTO_SCALE_ABSOLUTE_PERCENTAGE</ScaleMode>
+   <AutoScalePercentageValues>98.000000 2.000000 2.000000 98.000000</AutoScalePercentageValues>
+   <AutoScaleAbsolutePercentageValues>2.000000 98.000000</AutoScaleAbsolutePercentageValues>
+   <UserScaleValues>-100.000000 0.000000 0.000000 100.000000</UserScaleValues>
+   <PaletteName>ROY-BIG-BL</PaletteName>
+   <InterpolatePalette>true</InterpolatePalette>
+   <InvertPalette>OFF</InvertPalette>
+   <DisplayPositiveData>true</DisplayPositiveData>
+   <DisplayZeroData>false</DisplayZeroData>
+   <DisplayNegativeData>true</DisplayNegativeData>
+   <ThresholdTest>THRESHOLD_TEST_SHOW_OUTSIDE</ThresholdTest>
+   <ThresholdType>THRESHOLD_TYPE_OFF</ThresholdType>
+   <ThresholdFailureInGreen>false</ThresholdFailureInGreen>
+   <ThresholdNormalValues>-1.000000 1.000000</ThresholdNormalValues>
+   <ThresholdMappedValues>-1.000000 1.000000</ThresholdMappedValues>
+   <ThresholdMappedAvgAreaValues>-1.000000 1.000000</ThresholdMappedAvgAreaValues>
+   <ThresholdDataName></ThresholdDataName>
+   <ThresholdRangeMode>PALETTE_THRESHOLD_RANGE_MODE_FILE</ThresholdRangeMode>
+   <ThresholdLowHighLinked>false</ThresholdLowHighLinked>
+   <ThresholdOutlineDrawingMode>OFF</ThresholdOutlineDrawingMode>
+   <ThresholdOutlineDrawingColor>WHITE</ThresholdOutlineDrawingColor>
+   <HistogramRangeMode>PALETTE_HISTOGRAM_RANGE_ALL</HistogramRangeMode>
+   <HistogramBarsVisible>true</HistogramBarsVisible>
+   <HistogramEnvelopeVisible>false</HistogramEnvelopeVisible>
+   <HistogramBarsColor>CUSTOM</HistogramBarsColor>
+   <HistogramEnvelopeColor>RED</HistogramEnvelopeColor>
+   <HistogramEnvelopeLineWidthPercentage>0.5</HistogramEnvelopeLineWidthPercentage>
+   <HistogramNumberOfBuckets>100</HistogramNumberOfBuckets>
+   <NumericFormatMode>AUTO</NumericFormatMode>
+   <PrecisionDigits>2</PrecisionDigits>
+   <NumericSubivisions>0</NumericSubivisions>
+   <ColorBarValuesMode>DATA</ColorBarValuesMode>
+   <ShowTickMarksSelected>false</ShowTickMarksSelected>
+</PaletteColorMapping>
+]]></Value>
+      </MD>
+   </MetaData>
+   <Data>eJztWz1oFEEU3m1szj59IGBlK0S9w0ILIWLQNmiTcGArdpoUooiNEkGxtLGLBjtBsLNLSkGwT5Ha8qJnXDM3936+b2Z2j8AtPO5ud+bNm/c335vZq6qtQSXS+NKezcmjo6NN8Xd8X7vH8rf4IPy9vhYPrY0mY620rQkZU3Qm8Rv9oVI2afqxcsZ9xhTKhdjA0xNiv5BiW1j9R8EY0lxK2mwWZPmxpDMkDlDS/DOHQrkt28fPasEvrHl6cYDEfNyXbc/2Z3SNxHmJ+5ZMmq1YHbF6DO+d1rguoaMueCA+nzK+tu54bdm1ROOlzSt8hvpg/H1WPtmMOwJzm2RjNqZYXODl/5JjnjaScI+Fbz1blcCCMUmYAF0XrbWQieu6mp5/Fz4R6zN3/UEwCtqfGQtpF352tRbNOn925TtjYrFkTp2I1FjocwQPht/jvM/mf219lfySySns3FjbIWNZOHzk2F6TSfMZpA4JsY/UxpKX2S+wfCK1ppiTbyPLbik8LV/K9Y2cfMf4EOLT8Z6hF7sSnxR/1uohVm8SZsvRL2LrVJ1bsqVimBJz8yn1Qnnmjb23vir2tdZMJm7RNbHh8W5tdULuw1urogwWnzN3hn1Lp5rPTN6TL3SuP+5evKzJEPJ4WVWDL08O+uPv198cKHIfXz+X1gYXnp7P8Kn51f7VZi4pRzl7LEzNUmIvp1Qtrf3OwRbSuWEJHaCyMDVAG/qVeEp7BKm1kbfGlNB9t3jApxjfaTFXomZGiI1vjXcbeQKdY0m7Mrw0/2frMXSssFZvg6R4RMaT2ljnOp4erTZdxLAUe/HejLXWxHw0P2lqNKQ2jsdA9+pi/p6vorkmtAdyfh/bz6tzQ14jwfbx+GydqBH7fk5d6b6J5sScczuJb9yG4R/7C7rGd722aueXCCZsW26Jp7c/1QbOZOQsgeVTeLHYh8VCiP94/aSzR4ni99JCvizmz7U31r9sXRzntO2ltcQxtPmU4bX/2t6LQfnsPGD55Npg0m/fVxXRP1WXJ/bcfDGE+oVrxrf9RaBP6DuYPH7b4zYfdnuGjTw+W4NX0Z5l+GwoPpvmN9bD2ZWwrRWP6THfGV291F85d43qc/vm8uDRw4X/OrhyY9jPlQNZG7Q8aJ21aphJwmzemhCOp8mrfVqyMDpgiMWKXfhbrBcWS1lySljDe+84VX7NxnOyiakV4/sWFg95I/tyKF5LjckUn0BzCjsvZtxSmLxEmxinI3srzJl7qnzoHo9kR7QGL03o2sb6ELpfo/kqWt8hNRtrD0kOK8fUjixsnmFltWra5rvl/xpOYvyiVM5h/V/DDVo76bnWp7mP7OGWmAuru9g/2TUyN+7Z/h6f0I9i7C35pYXfETxW2p5IHLZBzPkN+z9ZD2uwvmPloVzcXApva/7VNt6ybMTw9bAG+05XSZ1KekV0ws7Ts2fJuUl8UzHNbGtG65qWD/FROX9U1ej+56m9IQ+jx3Ex+sfL61MDvMdc4hix/i8o2fPXvQXV/5jaoA08jrRv5NT2sUr7Zqn/W3g20jCBhiu8cTS87J/X58XW9HP5+r7R60ty274gX193e1Nxqq1PlkyHe4t/20h7MKyeUvWCxYTdV/MnqcfHTz3HpvI4kp9a7cM+tcJb921fR9rzE9mOr7fbz/uSXh4/WxbOASbz7fhzfWcRwoAp785JPJD+LCZFczmSi1Pm4scGz6fEnFJyfcp/FXOJfXfKmlepui/MAZrvW+uzVp/8Bg622f0=</Data>
+</DataArray>
+</GIFTI>
