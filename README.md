@@ -2,7 +2,7 @@
 Implementation of a 5k vertex fsRL surface for vertex wise connectomes generation
 
 # path to surfaces and spheres
-/data/mica3/BIDS_MICs/conte69-10k/surface/deformed*
+/data/mica3/BIDS_MICs/fsLR_5k/surface/deformed*
 
 ## New naming scheme
 | Original                           | micapipe                             |
@@ -17,7 +17,7 @@ Implementation of a 5k vertex fsRL surface for vertex wise connectomes generatio
 # Generate ROIs from surface: 
 > script `rerun_mrisconvert.sh`
 > line 70-77
-surf2roy.py
+surf2rois.py
 
 # Mapping feature to surface
 workflow_wb_command.sh
